@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Leonardo Da Vinci</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        
+    </head>
+
+    <body>
+
+        <div id="header">
+            <h1>
+                <span id="logo">Leonardo Da Vinci</span>
+            </h1>
+        </div>
+
+        <div id="photo">
+            <img src="leonardo.jpeg" alt="self-portrait-of-leonardo-da-vinci">
+
+            <div id="info-background">
+                <ul id="info"> 
+                    <li>Name: Leonardo Da Vinci</li>
+                    <li>Date of Birth: April 15, 1452</li>
+                    <br>
+                    <br>
+                    Famous For: 
+                    <br>
+                    <br>
+                    <ul>
+                        <li>The Last Supper</li>
+                        <li>Mona Lisa</li>
+                        <li>Designing Advance Weaponry</li>
+                        <li>Bridged medieval forms of medicine to modern ways</li>
+                        <li>Prolific designs of the human anatomy</li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container">
+            <h3>Upcoming Events:</h3>
+            <div id="grid">
+
+                <div class="events">
+                    <div class="content">
+                        <ul>
+                            <li>Name: North America Tour</li>
+                            <li>Date: January 25, 2024</li>
+                            <li>Location: Canada</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="events">
+                    <div class="content">
+                        <ul>
+                            <li>Name: Asia Tour</li>
+                            <li>Date: March 15, 2024</li>
+                            <li>Location: Japan</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="events">
+                    <div class="content">
+                        <ul>
+                            <li>Name: Meet and Greet</li>
+                            <li>Date: December 5,2022</li>
+                            <li>Location: Calgary AB Canada</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        
+       <button type="button" onclick="styleMe()">Style Me</button> 
+        
+
+        <div class="container">
+            <h3>Articles:</h3>
+            <div class="grid-articles">
+
+                <div class="content">
+                    <a href="https://www.history.com/topics/renaissance/leonardo-da-vinci" target="_blank">"Leonardo da Vinci"</a><br>
+                    <p>A look at Leonardo da Vinci's life through history.</p>
+                </div>
+
+                <div class="content">
+                    <a href="https://www.britannica.com/biography/Leonardo-da-Vinci" target="_blank">"Life and Work"</a><br>
+                    <p>Artist, Engineer and Scientist. Leonardo Da Vinci's Life and Work explored.</p>
+                </div>
+
+                <div class="content">
+                    <a href="https://www.theguardian.com/news/2019/apr/22/who-was-leonardo-da-vinci-and-what-can-we-learn-from-him" target="_blank">"Who and What Can we Learn from him?"</a><br>
+                    <p>We explore the early life of Leonardo Da Vinci, who and what can we learn from him?</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="form">
+            <form method="get">
+                <label>Favorite Scientist:</label>
+                <input type="text" placeholder="Enter your Favorite Scientist..." id="result">
+                <button type="button" onclick="who()">Click Here!</button>
+            </form>
+        </div>
+
+    </body>
+</html>

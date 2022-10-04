@@ -1,0 +1,127 @@
+:root{
+    --background-dark: #243d66;
+    --background-light: #354b6e;
+    --font-dark: #3c839c;
+    --font-light: #ebedee;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: var(--background-dark);
+    font-family: sans-serif;
+}
+
+#header{
+    padding-top: 30px;
+} 
+
+#logo{
+    font-size: 80px;
+    font-weight: bold;
+    color: var(--font-light);
+    display: block;
+    text-align: center;
+}
+
+#photo img{
+    border: solid var(--font-dark) 5px;
+    border-radius: 5px;
+    margin-left: 180px;
+    margin-top: 25px;
+    display: block;
+    float: left;
+}
+
+#info{
+    font-size: 25px;
+    color: var(--font-light);
+    display: block;
+    margin-left: 800px;
+    padding-top: 100px;
+}
+
+#info-background{
+    background-color: var(--background-light);
+    height: 550px;
+    margin-top: 150px;
+}
+
+h3{
+    font-family: sans-serif;
+    font-size: 35px;
+    color: var(--font-light);
+}
+
+.container{
+    background-color: var(--font-dark);
+    border: solid var(--font-dark) 10px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: white;
+    column-gap: 35px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.events{
+    border: solid var(--background-dark);
+    border-radius: 10px;
+}
+
+.content ul{
+    list-style: none;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+button{
+    width: 400px;
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    background-color: var(--font-dark);
+    border: solid var(--background-light) 5px;
+    color: var(--font-light);
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+button:hover{
+    background-color: var(--background-light);
+    cursor: pointer;
+}
+
+.grid-articles .content{
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+#form{
+    width: 600px;
+    font-size: 25px;
+    color: var(--font-light);
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#result{
+    font-size: 15px;
+}
